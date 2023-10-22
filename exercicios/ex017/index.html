@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in (Polegada), px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+
+            /* lighter, normal, bold, bolder */
+        }
+
+        h1 {
+            /* Shorthand font
+            - font-style -> font-weight -> font-size ->font-family 
+
+            font-family:  'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            
+            font-style: italic;*/
+
+            font: italic bolder 3em 'work Sans, sans-serif ';
+        }
+        h2 {
+            font: italic bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae repellendus unde ratione aspernatur dicta autem consequuntur odio illo vel, culpa optio, amet eveniet aliquam praesentium quasi totam exercitationem nisi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia exercitationem dolores quibusdam. Distinctio placeat repellat nisi voluptate tempora blanditiis obcaecati optio nostrum inventore est! Sunt at fugiat maiores impedit ad.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic reiciendis accusamus corporis assumenda repellat animi error. Possimus, molestiae, exercitationem sapiente rerum similique maiores modi pariatur repellat in rem voluptate beatae?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam provident, et culpa tempore necessitatibus praesentium optio a iure voluptatibus maiores, ea quasi nesciunt, explicabo autem sunt debitis at rem.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur exercitationem, dolore accusamus maiores, eos vitae beatae soluta velit nostrum perferendis unde consectetur odit voluptates dignissimos reprehenderit nemo! Est, in!</p>
+</body>
+</html>
